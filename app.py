@@ -56,9 +56,9 @@ app = FastAPI(
     description=API_DESCRIPTION,
     version="1.0.0",
     contact={
-        "name": "Your Name / Org",
-        "url": "https://your-domain.example",  # replace before publishing
-        "email": "support@your-domain.example",  # replace before publishing
+        "name": "Ashik Sharon M",
+        "url": "https://corporate-buzzword-generator-api.onrender.com",  # replace before publishing
+        "email": "ashiksharon005@gmail.com",  # replace before publishing
     },
     license_info={
         "name": "MIT",
