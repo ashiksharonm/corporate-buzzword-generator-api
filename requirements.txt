@@ -1,4 +1,4 @@
-fastapi 
-uvicorn 
-pydantic[dotenv] 
+fastapi
+uvicorn[standard]
+gunicorn
 python-multipart
