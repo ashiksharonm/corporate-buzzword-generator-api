@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: corporate-buzzword-generator-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -k uvicorn.workers.UvicornWorker -w 2 -b 0.0.0.0:8000 app:app
+    plan: free
